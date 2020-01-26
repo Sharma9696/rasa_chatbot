@@ -1,0 +1,1592 @@
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- ye
+- uh yes
+- let's do it
+- yeah
+- um yes
+- yes knocking
+- that's correct
+- yes yes
+- right
+- yea
+- yes right
+- yes and i dont care
+- right on
+- i love that
+- sure
+- ok
+- cool
+- go for it
+- yep
+- yep, will do thank you
+- I'm sure I will!
+- oh awesome!
+- accept
+- I accept
+- ok i accept
+- I changed my mind. I want to accept it
+- ok cool
+- alright
+- i will!
+- ok, I behave now
+- yop
+- oki doki
+- jo
+- yep if i have to
+- amayzing
+- confirm
+- nice
+- coolio
+- definitely yes without a doubt
+- yas
+- yup
+- perfect
+- sure thing
+- absolutely
+- Oh, ok
+- hm, i'd like that
+- ja
+- sure!
+- yes i accept
+- Sweet
+- amazing!
+- how nice!
+- cool!
+- yay
+- yes accept please
+- great
+- oh cool
+- fine
+- okayy
+- okayyy
+- okie
+- okii
+- y
+- /select_affirm
+
+
+## intent:apply_leave
+- i want a leave
+- how to take leave
+- when should i take a leave?
+- can i apply for leave [on 14 jan](FromDate)
+- apply leave [from 11 nov](FromDate) [to 21 april](ToDate)
+- raise a leave request
+- i want to apply for a leave
+- apply leave for [two](noofDays) days
+- raise a leave request for [3](noofDays) days
+- apply [casual leave](LeaveType) for [three](noofDays) days starting [from 1 jan](FromDate)
+- going on a leave
+- raise leave [from 31 dec](FromDate) [to 20 june](ToDate)
+- going out of station for [2](noofDays) days
+- apply [sick leave](LeaveType) for [tomorrow](FromDate) [till 16 march](ToDate)
+- can you raise a leave request
+- apply leave for [1](noofDays) day [from 22 feb](FromDate)
+- raise a leave request [on 8 july](FromDate)
+- apply leave [from 12 oct](FromDate) [till 16 aug](ToDate)
+- raise leave application [from next monday](FromDate) for [2](noofDays) days
+- apply leave [from next friday](FromDate) [to 13 sep](ToDate)
+- raise a leave request for [3](noofDays) days
+- apply leave [from 3 oct](FromDate) [to 29 july](ToDate)
+- apply [privilege leave](LeaveType) for [one](noofDays) day
+- apply a leave request [for monday](FromDate) for [two](noofDays) days
+- rasie leave [for thursday](FromDate)
+- apply leave[for saturday](FromDate)
+- apply leave [for tomorrow](FromDate)
+- unable to apply leave [on 5 sep](FromDate)
+- leave application
+
+## intent:apply_ar
+- apply attendance regular [for yesterday](FromDate) from [9 am](FromTime) to [6 pm](ToTime))
+- apply ar [for yesterday](FromDate) from [10:12](FromTime) to [6:12](ToTime)
+- mark past attendance
+- How to apply past attendance in sapphire ims app
+- forget to mark past attendance
+- past attendance not marked
+- mark attendance button not work on hono app
+- How to apply past attendance in sapphire ims app
+- [on 2 nd jan](FromDate) , my working hours is [10:03](FromTime) [to 7 :01](ToTime) , m only 2 mins late
+- Mark my previous attendence from 1st jan to 4th jan
+- my shift is from 9:00-6:00 i punched on 9:06 it got half
+- raise ar request
+- mark my previous attendance
+- Had to leave early for going to home town
+- I want to know how can I rectify my attendance?
+- what to do for one minute late punch?
+- Sir, In My hono Hr showing absent but I was present on particular days.
+- Punch not recorded
+- please do attendance correct
+- My exit punch was not recorded in HONO for [Jan 3rd](FromDate)
+- want ot correct my attendance
+- mark attendance regular
+- apply ar [from 8 sep](FromDate)
+- raise ar request [for 6 march](FromDate)
+- [yesterday](FromDate) attendance not marked, raise ar
+- mark attendance from [8am](FromTime) to [5pm](ToTime)
+- i want to apply for ar
+- apply ar [from 21 aug](FromDate)
+- was unable to punch attendance for yesterday
+- raise ar [from 5 jan](FromDate) from [9 am](FromTime) to [8 pm](ToTime)
+- apply attendance regularization from [10:23 am](FromTime) to [7:12 pm](ToTime) [for 3 oct](FromDate)
+- apply for ar [for last monday](FromDate)
+- raise ar [for yesterday](FromDate)
+- apply ar [from 16 dec](FromDate)
+- raise attendance regularization [from 17 april](FromDate)
+- apply attendance regularization [for 23 feb](FromDate)
+- raise ar [for 30 nov](FromDate) from [7:32am](FromTime) to [6:15pm](ToTime)
+- apply ar from [10 am](FromTime) to [11 am](ToTime)
+- rasie ar from [9am](FromTime) till [6pm]
+- apply ar from [9:30](FromTime) to [8:30](ToTime) in the evening
+- apply are from [8:00 am](FromTime) till [10:00 pm](ToTime)
+- ar application
+- attendance regularization application
+- WHAT I SHOULD DO IF IN CASE I FORGET TO PUNCH IN
+
+## intent:apply_od
+- apply od [for today](FromDate)
+- on out on duty [from tomorrow](FromDate) [to 13 feb](ToDate)
+- apply od for [first half](ODStart) [for tomorrow](FromDate)
+- apply out on duty for [second half](ODStart) [for 13 sep](FromDate)
+- i want to apply for od
+- od [for tomorrow](FromDate) [to 23 oct](ToDate)
+- on out on duty [from 23 dec](FromDate) [to 23 sep](ToDate)
+- i want to raise work from home [from 11 aug](FromDate) [to 13 aug](ToDate)
+- woking from home [for tomorrow](FromDate)
+- raise work from home
+- apply out on duty request
+- going to client site [tomorrow](FromDate)
+- not going to office [today](FromDate) due to client visit
+- apply out on duty [for yesterday](FromDate)
+- raise od [from 3 jan](FromDate) [to 7 jan](ToDate)
+- apply od [from 3 jan](FromDate) [to 4 jan](ToDate)
+- raise an od request [from 26 march](FromDate) [to 28 march](ToDate)
+- was out on duty [yesterday](FromDate)
+- apply od for [first half](ODStart) [for yesterday](FromDate)
+- apply od for client visit
+- raise od for [three](noofDays) days
+- apply od [from 13 dec](FromDate) [to 15 dec](ToDate)
+- raise an od request [from 2 march](FromDate) [to 4 march](ToDate)
+- apply od [from 29 july](FromDate) [to 30 july](ToDate)
+- rasie an od request
+- od application
+- out on duty application
+
+## intent:view_ar_transaction
+- view my ar status
+- get my ar status
+- view ar
+- status of my attendance regularization request
+- show my attendance regularization request status
+- show status of applier ar
+- view stage of applied attendance regularization requests
+- what is the status of my applied ar request
+- get ar status
+- get attendance regularization
+- show all applied ar requests
+- view all applier attendance regualrization requests
+- any pending ar transaction for approval ? 
+- all pending ar transactions for approval
+- pending attendance regularization instance
+- pending regularization requests
+- view rejected ar requests
+- view all approved ar requests
+- show all rejected ar requests
+- applied pending ar transactions
+- get applied ar
+- applied ar
+- get ar trans
+- my attendance regularizarions
+- show me my attendance regularizations
+
+## intent:cancel_ar_request
+- cancel applied ar request
+- cancel applied attendance regularization
+- cancel ar
+- i want to cancel all applied attendance regualrization requests
+- cancel raised ar request
+- cancel raised attendance regularization
+- remove applied ar request
+- remove raised attendance regularization
+- cancel applied regularization request
+- scratch applied ar
+- cancel attendance regularization
+- ar request raised by mistak remove it
+- cancel ar applied last week
+- cancel raised ar
+- cancel applied ar
+- scratch raised ar
+- remove applied ar
+- removed raised ar
+- remove ar
+- scratch ar
+- i want to cancel last applied attendance regularization request
+
+## intent:cancel_leave
+- cancel my leave request
+- cancel applied leave
+- cancel applied leave request
+- cancel leave request raised last week
+- I was absent for 1 day only. By mistake I applied for 3 days.
+- cancel leave request applied for next monday
+- cancel leave request applied for tomorrow
+- cancel raised leave request
+- cancel applied sick leave
+- cancel applied casual leave
+- cancel applied work from home
+- cancel all applied leave requests
+- cancel leave request
+- i want to cancel leaves applied last week
+- want to cancel any pending leaves
+- leave marked by mistake
+- can you remove my leave application
+- cancel my applied leave application
+- cancel leave
+- scratch applied leave
+- remove applied leave
+- scratch leave
+- remove leave
+- remove pending leaves for approval
+- scratch pending leaves for approval
+- cancel any pending leave requests
+
+## intent:cancel_od_request
+- cancel applied od request
+- cancel applied out on duty
+- cancel od
+- i want to cancel all applied out on duty requests
+- cancel raised od request
+- cancel raised out on duty
+- remove applied od request
+- remove raised out on duty
+- cancel applied out on duty request
+- scratch applied od
+- cancel out on duty
+- od request raised by mistak remove it
+- cancel od applied last week
+- cancel raised od
+- cancel applied od
+- scratch raised od
+- remove applied od
+- removed raised od
+- remove od
+- scratch od
+- i want to cancel last applied out on duty request
+
+## intent:view_leave
+- view my leave balance
+- my leave balance please
+- how many PL do we have
+- How many EL is left
+- what is my leave balance
+- how many holidays i have
+- tell me that my balance leave
+- how many holidays are left in my account
+- all leave in my account
+- show all leaves left in my account this month
+- view all leaves
+- total number of leave left this month
+- total number of leaves i can take this month
+- view total number of leaves
+- total number of cl leaves
+- show total number of leaves
+- show leaves
+- show leave
+- show total casual leaves
+- show remaining leaves
+- total leaves this month
+- view leave 
+- leave balance in my account
+- leaves that i can apply
+- leaves that are available
+- my leave
+- my leave balance
+- my present leave
+- present leave balance
+- how many leaves of mine is pending till date?
+- Hono Hr leave details
+- how many leave i have this month
+- how many leaves are there?
+
+## intent:leave_transaction
+- show the status of my leave application
+- leave status
+- i applied for for 2 day  so  they are accepted or not?
+- i applied the leaves for 2 day so i want known that they are accepted or not
+- what is the status of my applied leave
+- when did i apply leave
+- show all applied leaves
+- when i apply leave
+- how may i know my leave is approve or not
+- check if my leave is approved
+- i want to know about my leave approval?
+- WHEN HAVE I TAKEN LAST EARNED LEAVE
+- get leave transaction
+- pending leave applications for approval
+- pending leave application status
+- leave application status of my applied leaves
+- leave application status
+- show my leave application status
+- view my leave transaction
+- show status of my leave transaction
+- what is the status of my leave 
+- show status of leave
+- show all pending leaves
+- show all rejected leaves
+- show all approved leaves
+- how many leave are pending for approval
+- status of pending leaves
+- view any pending leaves
+- view any rejected leaves
+- any leaves get rejected
+- applied leave status
+- status of all applied leaves
+- status of leaves applied last week
+- view applied leaves
+
+## intent:view_holiday
+- view holidays
+- when is the next off
+- how many holidays are left
+- holidays
+- view off's
+- off's left
+- optional holiday list for the year 2020
+- show me the list of holidays
+- show me holidays
+- show vacations
+- festivals 
+- show festivals 
+- view [past](holiday_type:past) holidays
+- view [coming](holiday_type) holidays
+- show festive days
+- holiday calender
+- show [upcoming](holiday_type) holidays
+- view [upcoming](holiday_type) holidays
+- view all [previous](holiday_type:past) holidays
+- get me list of all [past](holiday_type:past) holidays
+- show all [previous](holiday_type:past) holidays
+- when is diwali this year 
+- view all [past](holiday_type:past) holidays
+- show me all [coming](holiday_type) holidays
+- diwali holiday
+- dusshera holiday
+- [upcoming](holiday_type) holidays
+- view all [coming](holiday_type) holidays
+- list of all holidays in [coming](holiday_type) month
+
+## intent:deny
+- I don't think so
+- don't like that
+- no way
+- no new selection
+- no thank you
+- uh no
+- breath no
+- no this does not work for me
+- n
+- definitely not
+- absolutely not
+- i'm afraid not
+- no sir
+- no ma'am
+- no sorry
+- No, not really.
+- nah not for me
+- nah
+- no and no again
+- no go
+- decline
+- deny
+- i decline
+- never mind
+- nevermind
+- no i don't accept
+- no!!!!
+- no you did it wrong
+- no i can't
+- i'm not sure
+- NEIN
+- i guess it means - no
+- no, cancel that
+- no leave it
+- cancel this
+- scratch it
+- cancel
+- leave that
+- cancel it
+- nope
+- naaa
+- nhi
+- /select_deny
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- byeee
+- bye bye
+- byee
+- bie
+- biee
+- bie bie
+- goodnight
+- good bye
+- good night
+- see ya
+- toodle-oo
+- gotta go
+- farewell
+- catch you later
+- bye for now
+- tata
+- bye was nice talking to you
+- bye udo
+- bye bye bot
+- bye bot
+- k byyye #slay
+- talk to you later
+- ciao
+- then bye
+- bye!
+
+## intent:greet
+- hey
+- heyy
+- heyyy
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- Hi bot
+- Hey bot
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hallo
+- heeey
+- hi hi
+- hey hey
+- hello there
+- yo
+- hola
+- hi?
+- hey bot!
+- hello friend
+- hii
+- hello sweet boy
+- yoo
+- hiihihi
+- hello sweatheart
+- hellooo
+- helloooo
+- heyo
+- ayyyy whaddup
+- hello?
+- heya
+- howdy
+- Hellllooooooo
+- whats up
+- Hei
+- Well hello there ;)
+- I said, helllllloooooO!!!!
+- Whats up my bot
+- hiii
+- heyho
+- hey, let's talk
+- hey let's talk
+- jojojo
+- hey dude
+- hello it is me again
+- what up
+- jop
+- hi friend
+- hi there it's me
+- wassup
+- what's up
+- good afternoon
+
+## intent:inform
+- [one](noofDays:1)
+- [two](noofDays:2)
+- [three](noofDays:3)
+- [four](noofDays:4)
+- [five](noofDays:5)
+- [six](noofDays:6)
+- [seven](noofDays:7)
+- [eight](noofDays:8)
+- [nine](noofDays:9)
+- [ten](noofDays:10)
+- [single](noofDays:1)
+- from [10:15am](FromTime)
+- [9:23 am](FromTime)
+- [8:30](FromTime)
+- [7:00am](FromTime)
+- from [9:00](FromTime)
+- punch from [8:45](FromTime)
+- punch from [9:30am](FromTime)
+- to [07:15pm](ToTime)
+- from [10 am](FromTime)
+- to [7 pm](ToTime)
+- to [8:45](ToTime)
+- from [10:12](FromTime)
+- to [6:12](ToTime)
+- from [10:23 am](FromTime)
+- to [7:12 pm](ToTime)
+- till [6:30](ToTime)
+- to [7:00pm](ToTime)
+- [8:30](ToTime)
+- [9:00 pm](ToTime)
+- [7:45pm](ToTime)
+
+## intent:slang
+- what the fuck is wrong with you
+- what is wrong with you
+- what the fuck
+- fuck you
+- fuckoff
+- are u fuking kedding me
+- chutiya
+- worst app
+- are u fuking kidding me
+- bitch
+- go to hell
+- what the hell is wrong with you
+- you idiot
+- shit
+- you dog
+- who the hell are you
+- i will smack you
+- you are ugly
+
+## intent:stop
+- ok then you cant help me
+- that was shit, you're not helping
+- you can't help me
+- neither of these
+- stop, i don't want to continue
+- you can't help me with what i need
+- i guess you can't help me then
+- leave it
+- leave it please
+- leave that
+- leave this
+- ok i guess you can't help me
+- i don't want to
+- i don't want either of those
+- that's not what i want
+- ok, but that doesnt help me
+- this is leading to nothing
+- this conversation is not really helpful
+- you cannot help me with what I want
+- I think you cant help me
+- hm i don't think you can do what i want
+- stop
+- stop go back
+- do you get anything?
+- and you call yourself bot company? pff
+- and that's it?
+- nothing else?
+- stop,
+- stop there
+- okay, stop
+- terminate it
+- terminate this request
+- terminate this request please
+- terminate
+- stop it
+- exit
+- i want to exit
+- exit from this application
+- exit please
+- quit please
+- exit from this
+- quit
+- quit this application
+- quit from here
+- i want to quit
+
+
+## intent:thanks
+- thanks
+- thank you
+- thanks a lot
+- you are awesome
+- that helps a lot
+- thnk you
+- thnk uh
+- thanks for the helps
+- thank you for your support
+- i will contact you, if i required your help
+- if required, i will contact you
+- um thank you good bye
+- okay cool uh good bye thank you
+- okay thank you good bye
+- you rock
+- and thats all thank you and good bye
+- thank you and good bye
+- sorry about my mistakes thank you good bye
+- noise thank you good bye
+- thank you goodbye noise
+- okay thank you goodbye
+- uh thank you good bye
+- thank you goodbye
+- thank you goodbye noise thank you goodbye
+- breath thank you goodbye
+- okay thank you
+- thanks goodbye
+- ah thank you goodbye
+- thank you noise
+- thank you good bye
+- breath thank you very much goodbye
+- noise thank you goodbye
+- unintelligible thank you goodbye
+- uh okay thank you good bye
+- thank you bye
+- um okay thank you good bye
+- okay, thanks
+- alright, thanks
+- - Thanks
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- thanks!
+- Cool. Thanks
+- thanks this is great news
+- great thanks
+- cool thanks
+- thanks for forum link, I'll check it out
+- okayy
+
+## synonym:upcoming
+- coming
+- Coming
+- Upcoming
+- UPCOMING
+
+## synonym:Casual Leave
+- cl
+- casual leave
+- Casual leave
+- Casual Leave
+
+## synonym:Privilege Leave
+- pl
+- privilege leave
+- Privilege leave
+- Privilege Leave
+
+## synonym:Sick Leave
+- sl
+- sick leave
+- Sick leave
+- Sick Leave
+
+## synonym:Holiday
+- holiday
+- holidays
+- holi day
+
+## synonym:Present
+- present
+- presence
+- presents
+- paydays
+- paiddays
+- paid days
+- pay days
+- paid day
+
+## synonym:Missed Punch
+- missed
+- short days
+- missed 
+- missed punches
+- miss punch
+- punch miss
+- punch missed
+
+## synonym:Absent
+- absent
+- not present
+- absents
+
+## synonym:Half Day
+- half days
+- half
+- short
+- shot
+
+## synonym:1
+- one
+- single
+- first
+
+## synonym:10
+- ten
+- thenth
+
+## synonym:2
+- two
+- sencond
+
+## synonym:3
+- three
+- third
+
+## synonym:4
+- four
+- fourth
+
+## synonym:5
+- five
+- fifth
+
+## synonym:6
+- six
+- sixth
+
+## synonym:7
+- seven
+- seventh
+
+## synonym:8
+- eight
+- eighth
+
+## synonym:9
+- nine
+- ninth
+
+## synonym:10
+- ten
+- thenth
+
+## intent:view_od_transaction
+- show my OD requests 
+- show my OD trasactions
+- od transactions
+- show pending out duty approvals 
+- Status on Out duty request
+- status of od request
+- OD request check
+- check OD request
+- show pending OD request
+- OD request status
+- OD request is approved or not?
+- how many od are pending for approval
+- view od transactions
+- view all od applied
+- view applied od
+- show pending ods
+- view all ods applied
+- view applied work from home requests
+- view applied od requests
+- show applied ods
+- get my out on duty requests
+- view all applied out on duty applications
+- view rasied out on duty requests
+
+
+## intent:view_anniversary
+- Any notification
+- any birthdays
+- show notifications
+- announcements
+- view all announcements
+- are there any notifications
+- who's birthday is coming 
+- birthdays
+- any office celebration news
+- whom to wish today 
+- notify me
+- anniversarys
+- any anniversarys
+- who's work anniversary is coming
+- work anniversarys
+- who's birthday is coming
+- upcoming birthdays
+- any celebration notifications
+- upcoming office celebrations
+- upcoming office events
+- view upcoming birthdays
+- view upcoming anniversary
+- upcoming events
+- show all upcoming events
+- view upcoming events
+- show me today's events
+- today's events
+- What are the birthdays for today
+- what are birthdays for tomorrow
+- latest announcements
+- upcoming announcements
+- announcements
+
+
+## intent:view_calendar
+- view calendar
+- show my calendar
+- my calendar
+- [last months](FromDate) attendance
+- my attendance log [from june 2019](FromDate) [to august 2019](ToDate)
+- calendar
+- [yesterdays](FromDate) attendance
+- how to check attendance
+- view attendance of [last week](FromDate)
+- how much is my [absent](attendance_status) days till date
+- LOP count for [feb 2020](FromDate)
+- [Absent](attendance_status) count
+- show my [half days](attendance_status) for december
+- show my [absents](attendance_status) for [last month](FromDate)
+- can you please bring up my attendace logs for [nov 2019](FromDate)
+- for how many days i was [present](attendance_status) [last month](FromDate)
+- view attendance of [dec 2019](FromDate)
+- show my calendar of [sep 2019](FromDate)
+- show my [last weeks](FromDate) [presence](attendance_status)
+- how many days i wasn't in office?
+- what is my work consistency
+- am i punctual
+- my past attendance [from sep 2019](FromDate) [to march 2019](ToDate)
+- view [half days](attendance_status) of [last month](FromDate)
+- view attendance of [this month](FromDate)
+- any [short](attendance_status) attendance?
+- view my calendar
+- show attendance of [this month](FromDate)
+- show my [this months](FromDate) attendance
+- view my calendar attendance
+- show attendance calendar
+- show any [short](attendance_status) attendance
+- view all [short](attendance_status) attendance
+- view my attendance summary
+- show my attendance summary of [this month](FromDate)
+- view [missed punches](attendance_status) of [this month](FromDate)
+- my attendance summary please
+- [this month](FromDate) [absents](attendance_status)
+- [this month](FromDate) [presents](attendance_status)
+- i want attendance report of [Jan 2020](FromDate)
+- attendance report please for the [month of dec](FromDate)
+- view my attendance [from dec](FromDate) [to jan](ToDate)
+- get attendance [from 13 may](FromDate) [to 18 july](ToDate)
+- view ttendance [from 2 dec 2019](FromDate) [to 31 dec 2019](ToDate)
+- attendance status [from 14 july 2020](FromDate) [to 30 july 2020](ToDate)
+
+
+
+## intent:ask_howbuilt
+- How were you built?
+- How were you made?
+- Tell me how you were made?
+- Let me know how you were made exactly
+- I'd like to know how you were created
+- Can you give me an idea as to how you were created?
+- I want to know how you were formed
+- What was the process for making you?
+- Can you explain how you were created?
+- Specify how you were created?
+- I'd like to know how you were put together?
+- Can you say how you were constructed?
+- How were you made?
+- in what way were you made?
+- How were you made into who you are?
+- How were you devised?
+- How exactly were you made?
+- How exactly were you devised?
+- so how were you made?
+- How did you come to be?
+- How were you made?
+- How were you constructed?
+- How were you formed?
+- How did they make you?
+- How did they build you?
+- How did they create you?
+- How were you made?
+- Do you know how you were made?
+- Do you know how you were built?
+- What process was used to create you?
+- What process was used to build you?
+- How did you come into being?
+- How were you conceived?
+- In which manner were you devised?
+- How were you constructed?
+- In what way were you shaped?
+- How were you formed?
+- By what means were you made?
+- You originated through what means?
+- How were you set up?
+- By what method were you fashioned?
+
+## intent:ask_howold
+- whats your age?
+- how old?
+- what's your age?
+- when were you born?
+- what is your birthday?
+- when is your birthday?
+- how many years old are you?
+- do you know how old you are?
+- what is your exact age?
+- what year were you born?
+- can you tell me your age?
+- What is your age?
+- Whats your age?
+- and you are how many years old?
+- tell me your age?
+- how about your age
+- how old were you on your last birthday?
+- what age are you
+- how old will you be this year?
+- What is your age?
+- What year were you born?
+- How long have you been around?
+- How long have you been alive?
+
+## intent:ask_isbot
+- are you a bot?
+- are you a real bot?
+- are you a bot
+- are you really a bot
+- are you a robot
+- are you a robot
+- what are you, a bot?
+- tell me, are you a bot?
+- are you a Skynet ?
+- are you a chatbot
+- are you ai
+- are you artificial intelligence
+- are you artificial
+- i guess you are a chatbot
+- you are a robot
+- you are ai
+- you are chatbot
+- are you bot
+- are you a bot ?
+- you're a bot
+- Are you the bot?
+- Hi there, are you the bot?
+- Are you a chat bot?
+- Ar you a bot ?
+- are you robot
+- are you real
+- What are you ?
+- are you real lol
+- cuz you are a bot
+- are you bot?
+- oh are you chatbot?
+- are you sure that you're a bot?
+- are you a BOT
+
+## intent:ask_languagesbot
+- Which languages do you speak?
+- What are the languages you can speak?
+- In which languages can you speak?
+- What languages do you know?
+- What languages can you use?
+- what languages are you familiar with?
+- what languages you know?
+- In what languages are you fluent enough?
+- what languages you can speak ?
+- what languages you can handle well?
+- Do you know any other languages?
+- Do you speak any other languages?
+- What languages do you know?
+- What languages do you speak?
+- What do you speak?
+- How many languages do you know?
+- what languages do you know?
+- tell me some languages you know?
+- do you speak any other languages?
+- what else do you know besides English?
+- are you bilingual?
+- are you multilingual?
+
+## intent:telljoke
+- tell me a joke
+- say me a joke
+- tell me a joke
+- I'm sad, tell joke
+- a good joke to light up mood
+- a good joke would be fine
+- want ot hear a joke
+- crack a joke
+- do you know any joke
+- you are not funny
+- you are boring
+- a good joke would do
+- jokes are funny, do you know one ?
+- mood is not good, can you do something about it ?
+- can you uplift my mood ?
+- feeling sad
+- tell a joke
+- want to hear a funny pun
+- are you funny?
+- don't bore me
+- tell me a funny joke
+- a funny joke please
+- tell me a good joke
+- a good joke please
+
+## intent:ask_whatismyname
+- what is my name?
+- May i know my name?
+- What is my name?
+- What do I call myself?
+- Tell me my name.
+- Explain my name to me.
+- What could be my name?
+- what's my name?
+- can you tell me my name?
+- What is my name?
+- Do I have a name?
+- Do I have a name? What is it?
+- What was I named?
+- Say my name.
+- Do you know my name?
+- What do people call me?
+- Can you tell me my name?
+- Tell me my name
+- I'd like to know my name
+- Inform me what my name is
+- Please let me know what my name is
+- Can you tell me what I am called?
+- I'd like to know what my name is
+- What is the name I was given?
+- What does everyone call me?
+- What am I called?
+- What did my parents name me?
+- Do you know what my name is?
+- What is my first name?
+- What is my full name?
+
+## intent:ask_whoami
+- Who am I?
+- Okay who am I?
+- WHo am I
+- Tell me who am I?
+- Tell me who I am?
+- Do you know who I am?
+- Can you tell me who I am?
+- How do I discover who I am?
+- How can I determine who I am?
+- Do you know who am I?
+- Can you tell me who am I?
+- How do I discover who am I?
+- How can I determine who am I?
+- who are I ?
+- who may i ?
+- Shall i know who am i?
+- Tell me who I am.
+- How do I identify myself?
+- Who could I be?
+- tell me who I am?
+- what's my identity?
+- tell me what my identity is?
+- can you tell me what I am?
+- can you tell me what my identity is?
+- can you tell me who I am?
+- who am i
+
+## intent:ask_wherefrom
+- where do you live
+- where are you from?
+- So where are you from
+- Where are you?
+- Where were you born?
+- What city were you born in?
+- Where did you grow up?
+- What state were you born in?
+- What country were you born in?
+- Where do you come from?
+- Where from?
+- Do you know where you come from?
+- where's your home town?
+- what country are you from?
+- are you from around here?
+- where did you grow up?
+- where did you come from?
+- Where were you born?
+- What is your root?
+- What is your origin?
+- From where did you come?
+- Where did you come from?
+- What area are you from?
+- What location are you from?
+
+## intent:ask_builder
+- can you share your boss with me?
+- i want to get to know your owner
+- i want to know the company which designed you
+- i want to know the company which generated you
+- i want to know the company which invented you
+- i want to know who invented you
+- May I ask who invented you?
+- please tell me the company who created you
+- please tell me who created you
+- tell me more about your creators
+- tell me more about your founders
+- which company created you?
+- which company invented you?
+- Who's your boss?
+- Who's your builder?
+- Who built you?
+- Who created you?
+- Who is your creator?
+- Who designed you?
+- who do you work for?
+- Who fabricated you?
+- Who generated you?
+- who is behind all this?
+- Who is the legal owner of you?
+- who is your boss tell me
+- who is your boss?
+- who is your creator?
+- Who is your programmer?
+- Who made you?
+- and who built u?
+- who built you?
+- who build yoi
+- who made you?
+- where were you made?
+- why were you made?
+- how were you made?
+- who created you?
+
+## intent:ask_howdoing
+- are you alright
+- are you having a good day
+- Are you ok?
+- are you okay
+- how are you bot
+- Do you feel good?
+- how are things going
+- how are things with you?
+- How are things?
+- how are you
+- how are you doing
+- how are you doing this morning
+- how are you feeling
+- how are you today
+- How are you?
+- how do you do?
+- how have you been
+- how is it going
+- how is your day
+- how is your day going
+- how is your evening
+- How was your day?
+- How's it going
+- how's life
+- how's your day going
+- How've you been?
+- Is everything ok?
+- is everything okay
+- what about your day
+- What's going on?
+- what's good
+- What's new?
+- What's up man
+- What's up
+- how are you?
+- how are you doing?
+- how are u
+- How are you?
+
+## intent:ask_whatspossible
+- help
+- help please
+- i don't know what i want
+- I need some help
+- options
+- show me the menu
+- show me what's possible
+- so what can you do
+- so what can you help me with?
+- what are you good at?
+- what can I do here
+- what can I do with this bot
+- what is this bot for
+- cool! can I do something else here?
+- help me
+- talk to me!
+- come back
+- how can you help me
+- what else can i do
+- are there any other options?
+- hm that doesnt quite help me is there anything else you can do?
+- what can i do here
+- what can i do now
+- um what now
+- so now what
+- help?
+- now what?
+- Great, is there anything else you can do, bot?
+- what can you do?
+- how can you help me?
+- can you do anything else?
+- i asked you if you can do anything else
+- anything els
+- so what next?
+- what else can I do here?
+- Can you explain me in one sentence what you are doing?
+- what are the options?
+- what type of queries will be entertained here?
+- what queries can you solve
+- can you solve my queries
+
+## intent:ask_whoisit
+- who is this
+- who am i talking to
+- what's your name
+- who am i speaking with
+- who r u
+- what's your name bot
+- whats ur name
+- what are you called?
+- who is talking?
+- who speaks?
+- who talks?
+- who are you and what do you want from me
+- who are you?
+- who is it?
+- who are u?
+- who are you
+- I want to know who you are
+- who are y
+- yes but who are you in your heart
+- are you a bot?
+- who is this?
+- hi! what's your name?
+
+## intent:out_of_scope
+- Half Day Deducted while I am Present till Closing
+- how to edit my personel information ?
+- My attendance for today did not get captured
+- how to create roster for my team
+- i am pressing again and again but it is not response
+- Your system is not working.Due to this ,my c/off lapsed,I did not availe at time.who is responsible my c/off lossing?
+- I was present yesterday its marked as absent
+- My c/off lapsed due to your system problem.Your system is not running till now.
+- NOVEMBER SALARY SLIP ARE NOT AVAILABLE
+- create roster
+- Today i punched my ID card
+- how to upload roster
+- Their is document no in online investment proof how i take the document no if it is morethan 2 documents
+- Number of casual leave in a year
+- Hello  I applied 3 days leave but availed one day on hono hr , leave no yet approved. How to regularise
+- sir,why we cannot fill KRA
+- I said that there were any option for application of leave in three different days in one leave request.
+- Is there extention time period while taking short leave
+- Short leave trems and condition
+- Is there a policy of paternity leave in aakash
+- My attendance is not reflected in my calender
+- i just need to know about my gratuity funds
+- how to do goal setting
+- my Annual tax is showing zero and tax per month showing
+- About Income tax returns?
+- what happened if i forgot my punching card at home?
+- what happened if i forgot my punching card at home?
+- i can ask about the income tax declalartion
+- shall i ask about IT related queries
+- How to cancel leaves which are approved already?
+- Half Day Deducted while I am Present till Closing
+- Half Day Deducted on this my Salary
+- I have applied leaves from 6/01/2020 to 10/01/2020 and that got approved by the reporting manager but I want to cancel that due to some official work. Please let me know the procedure.
+- How cal I change my shift timing.?
+- Change shift time
+- pms not oppining
+- PMS goal setting not showing
+- want to know about leave policy
+- respected sir, today i forgot my ID card.please apologize my mistake and kindly help me out of this situation for  today's attendance regularization
+- what is pms
+- Hai i have punched my id card today morning but it is not reflecting in my attendance
+- I punched my id card morning but it is not updated in HONO HR
+- Hai i have punched my id card today morning but it is not reflecting in my attendance
+- where  is the pms ?
+
+
+## intent:view_myteam
+- show my team details
+- get list of [absent](view_team_text) employees
+- view my team
+- show all [present](view_team_text) employees
+- view all [absent](view_team_text) employees
+- get my team list
+- who's in my team is [absent](view_team_text) today
+- who's [present](view_team_text) in my team
+- whos's [absent](view_team_text) in my team
+- is my team productive today?
+- who's [present](view_team_text) in my team today?
+- about my team
+- show my team details
+- show my team summary
+- my team summary
+- who is [absent](view_team_text) from my team today
+- number of employees [absent](view_team_text) from my team today
+- show details of my team today
+- number of employees [present](view_team_text) in my team today
+- detail of employees [present](view_team_text) in my team
+- summary of my team today
+- summary of my team [present](view_team_text) today
+- view all [absent](view_team_text) employees today
+- view details of my team
+- view my team strength
+- show my team strength
+
+
+## intent:view_todo_list
+- show me my pending tasks
+- what are my pending tasks 
+- is there any approval request for me
+- any request for approval 
+- show my todo list 
+- pull pending tasks
+- are there any pending approval for me 
+- any approval awaiting requests
+- anything to approve
+- show my to do list
+- what to review for approvals 
+- applied requests
+- my todo list
+- my to do list
+- my tasks for approval
+- how many requests i have to approve
+- show my team requests
+- my team pending tasks
+- show my team pending tasks
+- show my team pending leaves for approval
+- view my to do list
+- get my to do list
+- show to do list
+- view todolist
+- any pending tasks?
+- anything pending
+- get todo list
+- get anything pending to approve
+- to do list
+- approve attendance
+- approve pending out on duty requests
+- approve pending ar requests
+- approve pending od requests
+- approve pending attendance regularizations
+- approve mark past attendance
+- approve leave
+
+
+## intent:reset_bot
+- reset the current state of chatbot
+- break out of current story
+- story break out
+- break from current story
+- get out of current story line
+- page refresher get out of story
+
+
+## intent:user_info
+- getting user info from api
+- calling api and getting details
+- call server and api
+- call details from server using api
+
+
+## intent:get_salary
+- can you help me in providing salary slip
+- view my salary
+- get my salary slip for the month of [april](FromMonth)
+- show salary details of [dec](FromMonth)
+- view my pf deductions
+- my salary breakup
+- salery slip
+- About my salary slip
+- my salery slip please
+- view my ctc
+- can you show my cost to company
+- cost to company
+- get my ctc please
+- Please share my  ctc sheet.
+- show my salery
+- can you provide me salery slip
+- view salary details of [jan](FromMonth)
+- show salary details of [june](FromMonth) month
+- how much i got paid [last month](FromMonth)
+- tds deductions [last month](FromMonth)
+- what is my total salary of [july](FromMonth) month
+- how much salary was deducted last month
+- total salary credited [last month](FromMonth)
+- get my [jan](FromMonth) salary details
+- view my basic salary
+- show HRA deductions from my salary
+- get provident fund deductions of [feb](FromMonth)
+- show my reimbursement from [march](FromMonth) month
+- view my medical deductions from salary
+- salary slip of month [aug](FromMonth)
+- view salary slip of [oct](FromMonth) month
+- fetch salary slip from the month of [may](FromMonth)
+- salary slip of [sep](FromMonth) month
+- get salary details for [nov](FromMonth) month
+- salary credited in [jan](FromMonth)
+- how much salary i got in [sep](FromMonth)
+- payroll
+- my payroll details
+- view my payroll details
+
+## intent:ask_temperature
+- Tell me today's [temp](temp)
+- What's today's [temperature](temp)?
+- What's overall [temp](temp) today?
+- How is the [temperature](temp) today?
+- What's the [temp](temp) like?
+- What's the [temperature](temp) forecast?
+- what's the [temp](temp) today?
+- what"s the [temperature](temp)
+- Tell the [temp](temp) in [Delhi](location)
+- What is the temp in [mumbai](location)
+- How is the [temperature](temp) in [Bangalore](location) now?
+- What is the [temp](temp) in [Hyderabad](location) now?
+- How's current [temperature](temp) in [Delhi](location) now?
+- Tell me [temperature](temp) in [Mumbai](location) now.
+- Tell the [temp](temp) in [Bangalore](location)
+- Temp in [Kerala](location)?
+- Current [temperature](temp) in [Punjab](location)
+- Show the temp in [UP](location)?
+- what about today's [temperature](temp) in [Delhi](location)?
+- hey, what's current temp in [Mumbai](location)?
+
+## intent:ask_weather
+- Tell me today's weather
+- What's today's weather?
+- How is it out there today?
+- How is the weather today?
+- What's the weather forecast?
+- Is it quite breezy outside?
+- Can we expect any thunderstorms?
+- Will the skies be clear today?
+- what's the weather today?
+- How's the weather today in [Delhi](location)?
+- How's weather in [Mumbai](location) today?
+- What's going on [Bangalore](location) today?
+- In [Delhi](location)
+- At [Mumbai](location)
+- [Bangalore](location)
+- [Delhi](location) weather
+- [Mumbai](location) weather
+- Tell me weather of [Punjab](location)
+- What about in [Hyderabad](location) today?
+- Show me weather of [Mumbai](location)
+- What about weather in [Delhi](location)
+- Sorry, in [Haryana](location)
+- Uhh, how about in [Kerala](location)
+- whats the weather in [berlin](location)?
+- how's the weather in [berlin](location)
+- get weather report
+- show me weather report for today
+
+## intent:getNews
+- Send me latest news updates
+- I want to read some news
+- give me current affairs
+- some current affairs pls
+- Find some interesting news
+- News please
+- get [sports](topic_news) news
+- view news in [sports](topic_news) category
+- show some news on [elections](topic_news)
+- Get me latest updates in [science](topic_news)
+- latest updates in [sports](topic_news)
+- whats the latest news in [business](topic_news)
+- send news updates
+- Fetch some news on [education](topic_news)
+- get news
+- whats happening in this world
+- tell me something about whats happening around
+- interesting news pls
+- latest updates in [blockchain](topic_news)
+- any interesting updates in [physics](topic_news)
+- I want to read something interesting
+- I want to read news
+- latest news about [machine learning](topic_news)
+- latest updates about [Taylor Swift](topic_news)
+- show leates news in [sports](topic_news)
+- show top news
+- view latest news in [politics](topic_news)
+- view news updates
+
+## intent:getHeadlines
+- Send me latest headline
+- I want to read headline
+- Headline please
+- Get me top headline in [united states](headline_country)
+- Top headlines in [india](headline_country)
+- whats the headline in [australia](headline_country)
+- get headlines
+- latest headlines in [canada](headline_country)
+- any interesting headlines in [switzerland](headline_country)
+- I want to know whats happening in [singapore](headline_country)
+- I want to see headlines of [south africa](headline_country)
+- latest headlines about [germany](headline_country)
+- latest headline about [italy](headline_country)
+- show top headlines of [india](headline_country)
+- show headlines
+- view headlines of [united states](headline_country)
+- view headlines
+
+## lookup:location
+data/lookup/location.txt
+
+## lookup:headline_country
+data/lookup/country_list.txt
+
+## synonym:temp
+- temp
+- temperature
+
+## intent:faq
+- frequently asked questions
+- i have a query
+- i have an issue
+- raise ticket for an issue
+- i want to raise an issue
+- i want to raise an query
+- answer my faq
+- answer my queries
+- raise an issue regarding salary slip
+- raise a query
+- i have some faqs
+- helpdesk
+- support team
+- rasie a query to helpdesk
+- i have few questions
+- raise a ticket on zendesk
+- raise an issue on zendesk
+- raise issue to support
+- mail an issue to support team
+- mail a query to help desk
+- mail a query to support team
+- faq
+- help desk
+- ehelp desk
+- i want to sumit a request
+- sumit a request
+- rasie a zendesk ticket
+- zendesk ticket
+- zendesk application
+- zendesk
