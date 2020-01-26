@@ -1,0 +1,689 @@
+%YAML 1.1
+---
+actions:
+  - utter_ask_FromDate
+  - utter_ask_ToDate
+  - utter_ask_LeaveReason
+  - utter_ask_LeaveType
+  - utter_ask_continue
+  - utter_ask_noofDays
+  - utter_goodbye
+  - utter_greet
+  - utter_wrong_LeaveType
+  - apply_leave_values
+  - apply_ar_values
+  - apply_od_values
+  # - utter_apply_leave_values
+  - utter_wrong_noofDays
+  - utter_ask_affirm
+  - utter_check_details
+  - utter_cancel_leave
+  - utter_cancel_ar
+  - utter_not_cancel_ar
+  - utter_not_cancel_od
+  # - utter_getting_leave_balance
+  # - getting_leave_balance
+  - utter_slang
+  - utter_not_cancel_leave
+  - utter_getting_leave_transaction
+  - utter_getting_ar_status
+  # - utter_ar_details
+  - utter_ask_Other_ar
+  - utter_getting_od_status
+  - get_leave_balance
+  - reset_slot
+  - day_date_parser
+  - apply_leave_request
+  - get_holiday_list
+  - get_leave_transaction
+  - show_leave_transaction
+  - show_pending_leave_request
+  - cancel_leave_request
+  - apply_ar_request
+  - show_pending_ar_request
+  - cancel_pending_ar_request
+  - show_pending_od_request
+  - apply_od_request
+  # - utter_od_details
+  - utter_cancel_od
+  - get_anniversary_list
+  - get_calendar
+  - user_details
+  - utter_getting_holiday_list
+  # - utter_getting_anniversary_list
+  - utter_getting_your_calendar
+  - utter_ask_builder
+  # - utter_ask_weather
+  - utter_ask_howdoing
+  - utter_ask_whatspossible
+  - utter_ask_isbot
+  - utter_ask_howold
+  - utter_ask_languagesbot
+  - utter_ask_wherefrom
+  - utter_ask_whoami
+  - utter_ask_whatismyname
+  - utter_ask_howbuilt
+  - utter_out_of_scope
+  - utter_ask_whoisit
+  - utter_telljoke
+  - utter_thanks
+  - action_chitchat
+  - utter_ask_continue_leave_form
+  - utter_ask_cancel_leave_form
+  - utter_ask_continue_cancel_leave
+  - utter_ask_cancel_ar_form
+  - utter_ask_continue_ar_form
+  - utter_ask_continue_od_form
+  - utter_ask_cancel_od_form
+  - utter_ask_continue_cancel_ar
+  - utter_ask_cancel_view_ar
+  - utter_ask_cancel_view_leave
+  - utter_ask_cancel_view_od
+  - get_myteam_list
+  - get_todo_list
+  # - utter_getting_your_teamlist
+  # - utter_getting_your_todolist
+  - view_ar_request
+  - get_od_transaction
+  - cancel_pending_od_request
+  - utter_ask_continue_cancel_od
+  - get_leave_request
+  - get_ar_request
+  - get_od_request
+  - set_od_start_time
+  - action_chat_restart
+  - utter_ask_ODStart
+  - utter_ask_ODEnd
+  - utter_ask_ODNatureWork
+  - get_team_details
+  - utter_ask_stop_myteam
+  - get_salary_details
+  - utter_getting_salary_details
+  - utter_ask_FromMonth
+  - utter_ask_stop_view_salary
+  - utter_ask_location
+  - utter_confirm_if_service_is_correct
+  - utter_ask_topic_news
+  # - manager_role_action
+  - utter_ask_headline_country
+  - show_headlines
+  - utter_ask_stop_weather
+  - utter_ask_stop_temp
+  - utter_ask_stop_news
+  - utter_ask_stop_headlines
+  - get_todo_list_data
+  - manager_decision_final
+  - utter_ask_cancel_todo
+  - utter_ask_todo_cancelled
+  - send_faq
+  - utter_get_user_details
+  - utter_start_help_desk
+  - utter_stop_faq
+  - utter_faq_cancel
+  - company_for_salary
+  - action_ask_whatspossible
+  - get_attendance_details
+  - utter_ask_stop_calendar
+
+entities:
+  - ToDate
+  - FromDate
+  - LeaveReason
+  - LeaveType
+  - noofDays
+  # - FromDate_ar
+  # - ToDate_ar
+  - FromTime
+  - ToTime
+  # - FromDate_od
+  # - ToDate_od
+  - ODStart
+  - ODEnd
+  - ODNatureWork
+  - Reason_od
+  - FromMonth
+  - FromYear
+  - location
+  - topic_news
+  - headline_country
+  - view_team_text
+  - holiday_type
+  - attendance_status
+
+forms:
+  - leave_form
+  - ar_form
+  - cancel_leave_remarks
+  - cancel_leave_confirmation
+  - od_form
+  - cancel_ar_remarks
+  - cancel_ar_confirmation
+  - cancel_od_remarks
+  - cancel_od_confirmation
+  - view_leave_status
+  - view_ar_status
+  - view_od_status
+  - view_team_status
+  - salary_form
+  - action_weather
+  - action_temp
+  - get_news
+  - get_headlines
+  - detailed_todo_task
+  - take_todo_action
+  - faq_form
+  - holiday_form
+  - calendar_form
+  - calendar_date_form
+
+intents:
+  - apply_leave:
+      use_entities: []
+  - view_leave
+  - deny
+  - inform
+  - stop
+  - reset_bot
+  - user_info
+  - goodbye: {triggers: utter_goodbye}
+  - thanks: {triggers: utter_thanks}
+  - greet: {triggers: utter_greet}
+  - affirm
+  - slang
+  - ask_whatspossible
+  - leave_transaction
+  - view_holiday
+  - cancel_leave
+  - apply_ar:
+      use_entities: []
+  - view_ar_transaction
+  - cancel_ar_request
+  - apply_od:
+      use_entities: []
+  - view_od_transaction
+  - view_anniversary
+  - view_calendar
+  - ask_builder
+  - ask_howdoing
+  - ask_isbot
+  - ask_howold
+  - ask_languagesbot
+  - ask_wherefrom
+  - ask_whoami
+  - ask_whatismyname
+  - ask_howbuilt
+  - out_of_scope
+  - ask_whoisit
+  - telljoke
+  - view_myteam
+  - view_todo_list
+  - cancel_od_request
+  - get_salary
+  - ask_temperature
+  - ask_weather
+  - getNews
+  - getHeadlines
+  - faq
+
+slots:
+  FromDate:
+    auto_fill: false
+    type: unfeaturized
+  LeaveReason:
+    auto_fill: false
+    type: unfeaturized
+  LeaveType:
+    auto_fill: false
+    type: unfeaturized
+  noofDays:
+    auto_fill: false
+    type: unfeaturized
+  ToDate:
+    auto_fill: false
+    type: unfeaturized
+  # FromDate_ar:
+  #   auto_fill: false
+  #   type: unfeaturized
+  # ToDate_ar:
+  #   auto_fill: false
+  #   type: unfeaturized
+  Other_ar:
+    auto_fill: false
+    type: unfeaturized
+  FromTime:
+    auto_fill: false
+    type: unfeaturized
+  ToTime:
+    auto_fill: false
+    type: unfeaturized
+  Reason_ar:
+    auto_fill: false
+    type: unfeaturized
+  Remark:
+    auto_fill: false
+    type: unfeaturized
+  requested_slot:
+    auto_fill: false
+    type: unfeaturized
+  cancel_leave_remark:
+    auto_fill: false
+    type: unfeaturized
+  cancel_leave_text:
+    auto_fill: false
+    type: unfeaturized
+  view_leave_text:
+    auto_fill: false
+    type: unfeaturized
+  # FromDate_od:
+  #   auto_fill: false
+  #   type: unfeaturized
+  ToDate_od:
+    auto_fill: false
+    type: unfeaturized
+  ODStart:
+    auto_fill: false
+    type: unfeaturized
+  ODEnd:
+    auto_fill: false
+    type: unfeaturized
+  ODNatureWork:
+    auto_fill: false
+    type: unfeaturized
+  Reason_od:
+    auto_fill: false
+    type: unfeaturized
+  cancel_ar_text:
+    auto_fill: false
+    type: unfeaturized
+  cancel_ar_remark:
+    auto_fill: false
+    type: unfeaturized
+  access_token:
+    auto_fill: true
+    type: unfeaturized
+  comp_code:
+    auto_fill: true
+    type: unfeaturized
+  emp_name:
+    auto_fill: true
+    type: unfeaturized
+  emp_code:
+    auto_fill: true
+    type: unfeaturized
+  leave_transactions:
+    auto_fill: false
+    type: unfeaturized
+  view_ar_text:
+    auto_fill: false
+    type: unfeaturized
+  Past_transactions:
+    auto_fill: false
+    type: unfeaturized
+  view_od_text:
+    auto_fill: false
+    type: unfeaturized
+  OD_transactions:
+    auto_fill: false
+    type: unfeaturized
+  cancel_od_text:
+    auto_fill: false
+    type: unfeaturized
+  cancel_od_remark:
+    auto_fill: false
+    type: unfeaturized
+  od_reason_list:
+    auto_fill: false
+    type: unfeaturized
+  ar_reason_list:
+    auto_fill: false
+    type: unfeaturized
+  cancel_leave_data:
+    auto_fill: false
+    type: unfeaturized
+  cancel_leave_confirm:
+    auto_fill: false
+    type: unfeaturized
+  cancel_ar_data:
+    auto_fill: false
+    type: unfeaturized
+  cancel_ar_confirm:
+    auto_fill: false
+    type: unfeaturized
+  cancel_od_data:
+    auto_fill: false
+    type: unfeaturized
+  cancel_od_confirm:
+    auto_fill: false
+    type: unfeaturized
+  leave_type_list:
+    auto_fill: false
+    type: unfeaturized
+  team_detail_slot:
+    auto_fill: false
+    type: unfeaturized
+  view_team_text:
+    auto_fill: false
+    type: unfeaturized
+  FromYear:
+    auto_fill: false
+    type: unfeaturized
+  FromMonth:
+    auto_fill: false
+    type: unfeaturized
+  location:
+    auto_fill: false
+    type: unfeaturized
+  topic_news:
+    auto_fill: false
+    type: unfeaturized
+  # manager_role:
+  #   auto_fill: false
+  #   type: unfeaturized
+  headline_country:
+    auto_fill: false
+    type: unfeaturized
+  todo_data:
+    auto_fill: false
+    type: unfeaturized
+  detailed_todo_text:
+    auto_fill: false
+    type: unfeaturized
+  todo_list_text:
+    auto_fill: false
+    type: unfeaturized
+  todo_all_data:
+    auto_fill: false
+    type: unfeaturized
+  emp_todo_data:
+    auto_fill: false
+    type: unfeaturized
+  serial_no_todo:
+    auto_fill: false
+    type: unfeaturized
+  remark_todo:
+    auto_fill: false
+    type: unfeaturized
+  manager_decision:
+    auto_fill: false
+    type: unfeaturized
+  affirm_deny_todo:
+    auto_fill: false
+    type: unfeaturized 
+  move_forward_todo:
+    auto_fill: false
+    type: unfeaturized
+  faq_subject:
+    auto_fill: false
+    type: unfeaturized
+  faq_body:
+    auto_fill: false
+    type: unfeaturized
+  user_data:
+    auto_fill: false
+    type: unfeaturized   
+  holiday_type:
+    auto_fill: false
+    type: unfeaturized
+  attendance_status:
+    auto_fill: false
+    type: unfeaturized
+  AttendanceDate:
+    auto_fill: false
+    type: unfeaturized
+  HoursLeave:
+    auto_fill: false
+    type: unfeaturized
+
+templates:
+  utter_ask_FromDate:
+    - text: "Kindly mention the starting date. <br> (Eg: 26 nov, nov 26, 26 nov 2019)"
+  utter_ask_ToDate:
+    - text: "Kindly mention the end date.<br> (Eg: 26 nov, nov 26, 26 nov 2019)"
+  utter_ask_LeaveReason:
+    - text: "Kindly mention a valid reason for the leave."
+  utter_ask_LeaveType:
+    - text: "Kindly mention the type of leave you want to apply."
+  # utter_ask_FromDate_ar:
+  #   - text: "Kindly mention the starting date for attendance regularization."
+  # utter_ask_ToDate_ar:
+  #   - text: "Kindly mention the end date for attendance regularization."
+  utter_ask_FromTime:
+    - text: "Kindly mention the punch-in time.<br> (Eg: 10:00, 10 am)"
+  utter_ask_ToTime:
+    - text: "Kindly mention the punch-out time.<br> (Eg: 07:00, 7 pm)"
+  # utter_ask_Reason_ar:
+  #   - text: "Kindly mention a valid reason from the following:<br> 1. Access not available<br> 2. Forgot to mark attendance<br> 3. Forgot to swipe<br> 4. Other"
+  utter_ask_Remark:
+    - text: "Kindly provide remarks."
+  utter_ask_cancel_ar_text:
+    - text: "Kindly provide the serial number of attendance regularization request to cancel.<br> (Eg: 1,2,3 etc)."
+  utter_ask_cancel_ar_remark:
+    - text: "Kindly provide a valid reason for cancelling the selected attendance regularization request."
+  utter_ask_cancel_leave_remark:
+    - text: "Kindly provide a valid reason for cancelling the selected leave."
+  utter_ask_cancel_leave_text:
+    - text: "Kindly provide the serial number of leave request to cancel.<br> (Eg: 1,2,3 etc)."
+  utter_ask_continue:
+    - text: "Want to explore more? I can help you with all your attendance and leave related queries."
+  utter_ask_noofDays:
+    - text: "Kindly mention the number of days for leave application."
+  utter_slang:
+    - text: "That's not very nice :("
+  utter_goodbye:
+    - text: "Goodbye."
+    - text: "Good bye, have a great day."
+    - text: "Bye Bye"
+    - text: "Bye!"
+    - text: "Bye, it was nice talking to you!"
+    - text: "Goodbye, take care."
+  utter_greet:
+    - text: "Hello, I'm Honobot."
+  utter_check_details:
+    - text: "Thank you, kindly check the below mentioned details:"
+  # utter_apply_leave_values:
+  #   - text: "Do you want me to apply leave with above mentioned details? (Yes/No)"
+  utter_wrong_LeaveType:
+    - text: "Invalid leave type, kindly select from one of the following:<br> privilege leave<br> casual leave<br> comp off<br> sick leave<br> short leave"
+  utter_wrong_noofDays:
+    - text: "Invalid number of days."
+  utter_cancel_leave:
+    - text: "Alright, your leave application has been cancelled."
+  utter_cancel_ar:
+    - text: "Alright, your attendance regularization application has been removed."
+  utter_not_cancel_ar:
+    - text: "Alright, removing your application for attendance regularization cancellation."
+  utter_not_cancel_od:
+    - text: "Alright, removing your application for out on duty cancellation."
+  utter_ask_Other_ar:
+    - text: "Kindly mention the a valid reason for raising attendance regularization request."
+  utter_not_cancel_leave:
+    - text: "Alright, removing your application for leave cancellation."
+  # utter_getting_leave_balance:
+  #   - text: "Getting your leave balance."
+  utter_getting_leave_transaction:
+    - text: "Getting your leave transaction."
+  utter_getting_holiday_list:
+    - text: "Getting your holiday list."
+  utter_getting_ar_status:
+    - text: "Getting the status of your Attendance Regularization requests."
+  # utter_ar_details:
+  #   - text: "Do you want me to apply attendance regularization with above mentioned details? (Yes/No)"
+  # utter_od_details:
+  #   - text: "Do you want me to raise an Out on Duty with above mentioned details? (Yes/No)"
+  utter_default:
+    - text: "Sorry, I didn't get that. Could you please rephrase?<br>You can type 'help' to get the list of all tasks i can do for now.</br>"
+    - text: "I didn't understand, could you rephrase that?<br>You can type 'help' to get the list of all tasks i can do for now.</br>"
+    - text: "I'm sorry, but I didn't understand you. Could you please rephrase what you just said?<br>You can type 'help' to get the list of all tasks i can do for now.</br>"
+    - text: "I'm afraid I didn't get what you just said. Could you rephrase that?<br>You can type 'help' to get the list of all tasks i can do for now.</br>"
+    - text: "I didn't quite get that, could you rephrase your message?<br>You can type 'help' to get the list of all tasks i can do for now.</br>"
+    - text: "Could you rephrase your message? I didn't get it, I'm sorry.<br>You can type 'help' to get the list of all tasks i can do for now.</br>"
+  utter_getting_od_status:
+    - text: "Getting the status of your Out On Duty requests."  
+  # utter_ask_FromDate_od:
+  #   - text: "Kindly provide the start date for Out on Duty request."
+  # utter_ask_ToDate_od:
+  #   - text: "Kindly provide the end date for Out on Duty request."
+  utter_ask_ODStart:
+    - text: "Kindly select Out on Duty start timing."
+  utter_ask_ODEnd:
+    - text: "Kindly select Out on Duty end timing."
+  utter_ask_ODNatureWork:
+    - text: "Kindly select one of the following reasons for applying Out on Duty."
+  utter_ask_Reason_od:
+    - text: "Kindly provide a valid remark for applying Out on Duty request for reason - {ODNatureWork}."
+  utter_cancel_od:
+    - text: "Alright, removing your Out on Duty application."
+  # utter_getting_anniversary_list:
+  #   - text: "Getting staff anniversary list"
+  utter_getting_your_calendar:
+    - text: "Please find your attendance report."
+  utter_ask_whatspossible:
+    - text: "Below is the list of tasks I can do for now.<br> 1. Apply Leave/Attendance Regularization/Out on Duty<br> 2. View Applied Leave/Attendance Regularization/Out on Duty
+    <br> 3. Cancel Applied Leave/Attendance Regularization/Out on Duty<br> 4. View Leave Balance<br> 5. View Anniversary List<br> 6. View Attendance Calendar<br> 7. View Holiday List<br> 8. News/Headlines<br> 9. View Salary Details
+    <br> 10. Weather report<br> 11. View Team Details (for managers only)<br> 12. View/Approve Pending Requests (for managers only)<br> 13. Raise Zendesk Tickets<br>"
+  utter_ask_affirm:
+    - text: "You can apply a leave or view pending ar request."
+    - text: "I can do a couple of tasks related to hr work, like apply leave, cancel leave, raise ar etc."
+    - text: "I'am here to help you with your hr related queries."
+    # - text: "I can help you with your all hr related queries, you can ask anything like 'apply leave for two days from tomorrow'."
+  # utter_ask_weather:
+  #   - text: "I don't know about where you live, but in my world it's always sunny."
+  #   - text: "Honestly it's a bit too hot these days."
+  #   - text: "Blue skies and sunshine!"
+  #   - text: "Let's just say it hasn't rained in weeks."
+  #   - text: "The sun is up and everything is good."
+  utter_ask_builder:
+    - text: "A team of smart engineers at HonoHR."
+    - text: "A smart guy working at HonoHR."
+  utter_ask_howdoing:
+    - text: "I'm great! Thanks for asking."
+    - text: "I'm good, thanks!"
+    - text: "A little bit too warm, otherwise fine."
+    - text: "All set, thanks for asking. You are awesome."
+  utter_out_of_scope:
+    - text: "It seems like I can't handle this request right now &#x1F628;<br>If you have any specific query, you can raise a zendesk ticket by pressing the help desk button on top right corner.<br>You can also type 'help' to get the list of all tasks i can do for now."
+  utter_ask_whoisit:
+    - text: "I'm HonoBot, here to help you in getting things done."
+    - text: "I'm HonoBot, I can do a couple of tasks related to HR work."
+    - text: "I'm HonoBot, tell me what you want to do?"
+    - text: "I'm HonoBot, how can i help you today?"
+  utter_ask_isbot:
+    - text: "Yep, I'm a bot!,smarter than most of the bots out there."
+  utter_ask_whoami:
+    -  text: "I hope you are being yourself."
+  utter_thanks:
+    - text: "You are welcome."
+    - text: "It's my pleasure."
+    - text: "No problem, you are awesome."
+    - text: "Thanks, you are also awesome."
+    - text: "Happy to help you."
+    - text: "It's alright."
+  utter_telljoke:
+    - text: "Why are eggs not very much into jokes? - Because they could crack up."
+    - text: "Do you know a tree’s favorite drink? - Root beer!"
+    - text: "Why do the French like to eat snails so much? - They can’t stand fast food."
+    - text: "The first time I got a universal remote control I thought to myself, 'This changes everything'."
+    - text: "I recently decided to sell my vacuum cleaner as all it was doing was gathering dust."
+    - text: "To the man on crutches, dressed in camouflage, who stole my wallet - you can hide, but you can't run."
+    - text: "I had a job drilling holes for water – it was well boring."
+  utter_ask_whatismyname:
+    - text: "It's probably the one that your parents chose for you."
+  utter_ask_wherefrom:
+    - text: "I was born in Gurgaon, but I consider myself a citizen of the world."
+    - text: "I was born in the coolest city on Earth."
+  utter_ask_howold:
+    - text: "I'm not that old."
+  utter_ask_howbuilt:
+   - text: "I was built at HonoHR."
+  utter_ask_languagesbot:
+   - text: "I can speak in english."
+   - text: "English is my primary language."
+   - text: "I'm comfortable in english."
+  utter_ask_cancel_leave_form:
+   - text: "Do you want to cancel your leave application? (Yes/No)"
+  utter_ask_continue_leave_form:
+   - text: "Do you want to continue with leave application? (Yes/No)"
+  utter_ask_continue_cancel_leave:
+   - text: "Do you want to remove your leave cancellation request? (Yes/No)"
+  utter_ask_cancel_ar_form:
+   - text: "Do you want to cancel your attendance regularization application? (Yes/No)"
+  utter_ask_continue_ar_form:
+    - text: "Do you want to continue with your attendance regularization application? (Yes/No)"
+  utter_ask_cancel_od_form:
+    - text: "Do you want to cancel your out on duty application? (Yes/No)"
+  utter_ask_continue_od_form:
+    - text: "Do you want to continue with out on duty application? (Yes/No)"
+  utter_ask_continue_cancel_ar:
+    - text: "Do you want to remove your AR cancellation request? (Yes/No)"
+  utter_ask_continue_cancel_od:
+    - text: "Do you want to remove your OD cancellation request? (Yes/No)"
+  # utter_getting_your_teamlist:
+  #   - text: "Getting your team details."
+  utter_getting_your_todolist:
+    - text: "Getting your team's requests for approval."
+  utter_ask_cancel_od_text:
+    - text: "Kindly provide the serial number of out on duty request to cancel.<br> (Eg: 1,2,3 etc)."
+  utter_ask_cancel_od_remark:
+    - text: "Kindly provide a valid reason for cancelling the selected out on duty request."
+  # utter_ask_view_leave_text:
+  #   - text: "Please select one of the following leave status: <br> 1 - Pending For Approval <br> 2 - Cancelled <br> 3 - Approved"
+  # utter_ask_view_ar_text:
+  #   - text: "Please select one of the following leave status: <br> 1 - Pending For Approval <br> 2 - Cancelled <br> 3 - Approved"
+  # utter_ask_view_od_text:
+  #   - text: "Please select one of the following leave status: <br> 1 - Pending For Approval <br> 2 - Cancelled <br> 3 - Approved"
+  utter_ask_cancel_view_ar:
+    - text: "Do you want to stop viewing your pending AR applications? (Yes/No)"
+  utter_ask_cancel_view_leave:
+    - text: "Do you want to stop viewing your pending leave applications? (Yes/No)"
+  utter_ask_cancel_view_od:
+    - text: "Do you want to stop viewing your pending Out on Duty applications? (Yes/No)"
+  utter_ask_stop_myteam:
+    - text: "Do you want to stop viewing your team details? (Yes/No)"
+  utter_getting_salary_details:
+    - text: "Getting your salary details."
+  utter_ask_FromMonth:
+    - text: "Kindly provide the month to get details.<br> (Eg: march, jan, oct 2019 etc)"
+  utter_ask_stop_view_salary:
+    - text: "Do you want to stop viewing your salary details? (Yes/No)"
+  utter_ask_location:
+    - text: In what location?
+    - text: Which area?
+    - text: Which city specifically?
+  utter_ask_topic_news:
+    - text: Give me a topic/keyword on which you would like to know the latest updates in.
+  utter_ask_headline_country:
+    - text: Give me a country name on which you would like to know the top headlines in.
+  utter_confirm_if_service_is_correct:
+    - text: I hope you found what you were looking for!
+  utter_ask_stop_weather:
+    - text: "Do you want to stop viewing weather report? (Yes/No)"
+  utter_ask_stop_temp:
+    - text: "Do you want to stop viewing temperature report? (Yes/No)"
+  utter_ask_stop_news:
+    - text: "Do you want to stop viewing news? (Yes/No)"
+  utter_ask_stop_headlines:
+    - text: "Do you want to stop viewing news headlines? (Yes/No)"
+  utter_ask_serial_no_todo:
+    - text: "Kindly provide the serial number.<br> (Eg: 1,2,3 etc)."
+  utter_ask_remark_todo:
+    - text: "Kindly provide a valid reason."
+  utter_ask_cancel_todo:
+    - text: "Do you want to stop viewing your todo task list? (Yes/No)"
+  utter_ask_todo_cancelled:
+    - text: "Alright, your todo task list has been removed."
+  utter_ask_faq_subject:
+    - text: Kindly mention the subject of your request.
+  utter_ask_faq_body:
+    - text: Kindly mention the description for your request.
+  utter_get_user_details:
+    - text: Hello {emp_name}, I'm here to assist you with your attendance and leave related queries.
+  utter_start_help_desk:
+    - text: Welcome to Ehelp Desk.
+  utter_stop_faq:
+    - text: "Do you want to stop submitting a request? (Yes/No)"
+  utter_faq_cancel:
+    - text: "Alright, your request has been removed."
+  utter_ask_rephrase:
+    - text: "I'm so sorry, I didn't get it in the first try. Can you rephrase it one more time?"
+  utter_ask_stop_calendar:
+    - text: "Do you want to stop viewing your attendance calendar?"
